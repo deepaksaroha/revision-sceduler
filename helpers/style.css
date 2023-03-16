@@ -1,0 +1,63 @@
+h1, h2, h3, h4, h5, h6, p, body{
+    margin: 0;
+}
+
+.cover{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.container{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    box-shadow: 0 0 50px 0 rgba(128, 128, 128, 0.24);
+    background-color: white;
+}
+
+.inpt{
+    padding: 10px;
+    border: 1px solid rgba(21, 101, 251, 0.774);
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.inpt:focus{
+    border: 2px solid rgba(21, 101, 251, 0.774);
+}
+
+.btn{
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(21, 101, 251, 0.774);
+}
+
+.er{
+    color: red;
+}
+
+.sc{
+    color: green;
+}
+
+#res{
+    height: 16px;
+}
