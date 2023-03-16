@@ -25,7 +25,7 @@ window.onload = () => {
   const getRequests = (link) => {
     return [
       fetch(
-        `https://www.googleapis.com/calendar/v3/calendars/deepaksaroha1993@gmail.com/events`,
+        `https://www.googleapis.com/calendar/v3/calendars/deepaksaroha1993@gmail.com/events?key=AIzaSyBG7mN089FtsueyQtQwHD7d98YZLykWReg`,
         {
           method: "POST",
           headers: {
@@ -45,7 +45,7 @@ window.onload = () => {
         }
       ),
       fetch(
-        `https://www.googleapis.com/calendar/v3/calendars/deepaksaroha1993@gmail.com/events`,
+        `https://www.googleapis.com/calendar/v3/calendars/deepaksaroha1993@gmail.com/events?key=AIzaSyBG7mN089FtsueyQtQwHD7d98YZLykWReg`,
         {
           method: "POST",
           headers: {
@@ -65,7 +65,7 @@ window.onload = () => {
         }
       ),
       fetch(
-        `https://www.googleapis.com/calendar/v3/calendars/deepaksaroha1993@gmail.com/events`,
+        `https://www.googleapis.com/calendar/v3/calendars/deepaksaroha1993@gmail.com/events?key=AIzaSyBG7mN089FtsueyQtQwHD7d98YZLykWReg`,
         {
           method: "POST",
           headers: {
@@ -85,7 +85,7 @@ window.onload = () => {
         }
       ),
       fetch(
-        `https://www.googleapis.com/calendar/v3/calendars/deepaksaroha1993@gmail.com/events`,
+        `https://www.googleapis.com/calendar/v3/calendars/deepaksaroha1993@gmail.com/events?key=AIzaSyBG7mN089FtsueyQtQwHD7d98YZLykWReg`,
         {
           method: "POST",
           headers: {
@@ -105,7 +105,7 @@ window.onload = () => {
         }
       ),
       fetch(
-        `https://www.googleapis.com/calendar/v3/calendars/deepaksaroha1993@gmail.com/events`,
+        `https://www.googleapis.com/calendar/v3/calendars/deepaksaroha1993@gmail.com/events?key=AIzaSyBG7mN089FtsueyQtQwHD7d98YZLykWReg`,
         {
           method: "POST",
           headers: {
