@@ -237,7 +237,7 @@ window.onload = () => {
     };
 
     submitButton.addEventListener("click", () => {
-        const questionLink = questionLinkElement.value;
+        const questionLink = questionLinkElement.value.toString();
         createEvent(questionLink);
     });
 };
