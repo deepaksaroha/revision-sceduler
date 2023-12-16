@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, h6, p, body{
     margin: 0;
 }
 
+.error, .loading{
+    display: none;
+}
+
 .cover{
     height: 100vh;
     width: 100vw;
@@ -48,6 +52,10 @@ h1, h2, h3, h4, h5, h6, p, body{
     border: none;
     color: white;
     background-color: rgba(21, 101, 251, 0.774);
+}
+
+#signin_btn, #signout_btn, #greeting{
+    display: none;
 }
 
 .er{
