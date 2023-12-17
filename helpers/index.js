@@ -42,7 +42,7 @@ window.onload = () => {
     };
 
     const getUserName = async () => {
-        return fetch("https://people.googleapis.com/v1/people/me", {
+        return fetch("https://www.googleapis.com/oauth2/v2/userinfo", {
             headers: {
                 Authorization: `Bearer ${getAccessToken()}`,
             },
@@ -54,7 +54,7 @@ window.onload = () => {
                 return res.json();
             })
             .then((res) => {
-                return res?.names?.displayName;
+                return res?.given_name;
             })
             .catch((err) => {
                 throw new Error("Name Api Error!");
